@@ -1,0 +1,13 @@
+
+
+	<%@ include file="uheader.jsp"%>
+<%@ page   import="databaseconnection.*" %>
+<%@ page   import="CT.*" %>
+    <section class="w3l-subscribe-content py-5">
+	<h2>.
+	</h2>
+	Mileage: <%=Details.getpoints(session.getAttribute("userid")+"")%>
+	</section>
+
+
+	<%@ include file="footer.jsp"%>
